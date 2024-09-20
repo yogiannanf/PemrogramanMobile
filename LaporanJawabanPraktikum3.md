@@ -18,3 +18,30 @@ Jawab : list dengan nilai [1, 2, 3] dibuat, di mana dua pernyataan assert memver
 <img src = img/coba1a.png>
 
 Jawab : Perubahan pada kode dilakukan dengan mengubah list menjadi final List<String?> list = List.filled(5, null);, yang menetapkan ukuran 5 dengan nilai default null.  penggunaan string adalah untuk memastikan bahwa list dapat menyimpan informasi yang diinginkan dengan cara yang aman dan sesuai tipe. Sehingga output yang dihasilkan adalah [Yogianna Nur Febrianti, 2241720261, null, null, null], menunjukkan bahwa elemen pertama dan kedua telah diisi sesuai permintaan, sementara elemen lainnya tetap null.
+
+### *Praktikum 2: Eksperimen Tipe Data Set*
+
+#### eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan!
+
+<img src = img/cobaprak2.png>
+
+Jawab : Kode berhasil dijalankan dengan perintah untuk mencetak isi dari set yang berisi nama-nama halogen. Output yang dihasilkan akan berupa tampilan set variabel halogens.
+
+#### Tambahkan kode program berikut
+```dart
+var names1 = <String>{};
+Set<String> names2 = {}; // This works, too.
+var names3 = {}; // Creates a map, not a set.
+
+print(names1);
+print(names2);
+print(names3);
+```
+
+Apa yang terjadi ? Jika terjadi error, silakan perbaiki namun tetap menggunakan ketiga variabel tersebut. Tambahkan elemen nama dan NIM Anda pada kedua variabel Set tersebut dengan dua fungsi berbeda yaitu .add() dan .addAll(). Untuk variabel Map dihapus, nanti kita coba di praktikum selanjutnya.
+
+<img src = img/cobaprak2a.png>
+
+Jawab : Elemen nama "Yogianna Nur Febrianti" ditambahkan ke set names1 menggunakan metode .add(), dan Nama "Yogianna Nur Febrianti" NIM "2241720261" ditambahkan ke set names2 menggunakan metode .addAll(). Hasil eksekusi akan menampilkan {Yogianna Nur Febrianti} untuk names1 dan {2241720261} untuk names2.
+
+    catatan : .add() hanya bisa menambahkan satu elemen, sementara .addAll() bisa menambahkan banyak elemen sekaligus.
