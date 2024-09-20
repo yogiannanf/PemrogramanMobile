@@ -82,3 +82,23 @@ Jawab : Variabel list1 tidak ada, sehingga akan menyebabkan error. Variabel yang
 <img src = img/cobaprak4.png>
 
 Jawab : list yang berisi angka [1, 2, 3] dan list2 dibuat dengan menambahkan angka 0 di depan list, jadi isinya menjadi [0, 1, 2, 3]. Kode mencetak isi dari list, isi dari list2, dan jumlah elemen di list2, yang hasilnya adalah [1, 2, 3], [0, 1, 2, 3], dan 4.
+
+#### Apa yang terjadi ? Jika terjadi error, silakan perbaiki.
+
+```dart
+list1 = [1, 2, null];
+print(list1);
+var list3 = [0, ...?list1];
+print(list3.length);
+```
+Jawab : program ini terjadi error dikarenakan list1 belum dideklarasi variabel. 
+
+<img src = img/cobaprak4a.png>
+
+Jawab : list berisi [1, 2, 3], yang dicetak sebagai hasil pertama.list2 berisi [0, 1, 2, 3] (hasil dari menambahkan 0 di depan list), yang dicetak di baris kedua. Panjang list2, yaitu 4, dicetak setelahnya. Kemudian, list list1 yang berisi [1, 2, null] dicetak. Terakhir, list list3 berisi dua elemen (0 dan list1), yang hasilnya adalah 2 mencetak panjang list3.
+
+#### Tambahkan variabel list berisi NIM Anda menggunakan Spread Operators. Dokumentasikan hasilnya dan buat laporannya!
+
+<img src = img/cobaprak4b.png>
+
+Jawab : list listNIM berisi NIM Anda ('2241720261'), dan list4 menjadi [0, 2241720261]. Panjang list4 juga dicetak sebagai 2. dan listNim ada di baris ke-6 jika di run. list4 menjadi [0, 2241720261] karena menggunakan spread operator untuk menambahkan elemen dari listNIM.
