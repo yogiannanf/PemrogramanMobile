@@ -65,3 +65,20 @@ Jawab :  kode berjalan tanpa error, tetapi variabel mhs1 dan mhs2 tidak digunaka
 <img src = img/cobaprak3b.png>
 
 Jawab : Map gifts dan nobleGases diperbarui dengan nilai baru: gifts sekarang menyimpan hadiah dengan kunci string, sedangkan nobleGases menyimpan gas mulia dengan kunci integer. Map mhs1 dan mhs2, dibuat untuk menyimpan informasi mahasiswa, dengan mhs1 menggunakan kunci string dan mhs2 menggunakan kunci integer.
+
+### *Praktikum 4: Eksperimen Tipe Data List: Spread dan Control-flow Operators*
+
+#### Eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan!
+
+```dart
+var list = [1, 2, 3];
+var list2 = [0, ...list];
+print(list1);
+print(list2);
+print(list2.length);
+```
+Jawab : Variabel list1 tidak ada, sehingga akan menyebabkan error. Variabel yang dideklarasikan adalah list, bukan list1.
+
+<img src = img/cobaprak4.png>
+
+Jawab : list yang berisi angka [1, 2, 3] dan list2 dibuat dengan menambahkan angka 0 di depan list, jadi isinya menjadi [0, 1, 2, 3]. Kode mencetak isi dari list, isi dari list2, dan jumlah elemen di list2, yang hasilnya adalah [1, 2, 3], [0, 1, 2, 3], dan 4.
