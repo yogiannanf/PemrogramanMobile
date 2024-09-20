@@ -67,3 +67,20 @@ do {
 <img src = img/hasilakhirrun2b.png>
 
 Jawab : Program tidak mengalami error, program mencetak angka dari 0 hingga 32 menggunakan loop while, kemudian melanjutkan dengan loop do-while untuk mencetak angka dari 33 hingga 76. Dengan cara ini, program berfungsi dengan benar dan menghasilkan output angka 0-76.
+
+## *Praktikum 3: Menerapkan Perulangan "for" dan "break-continue*
+
+#### Eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan! Lalu perbaiki jika terjadi error.
+
+<img src = img/hasilerrorpraktikum4.png>
+
+Kode setelah diperbaiki
+<img src = img/hasilpraktikum4.png>
+
+Jawab : Kode yang telah diperbaiki berhasil mengatasi masalah dengan memastikan bahwa nama variabel konsisten dan menambahkan operator increment index++ dalam loop for, sehingga program mencetak angka dari 10 hingga 26 dengan benar.
+
+#### Program dalam for-loop, jika terjadi error, silakan perbaiki namun tetap menggunakan for dan break-continue.
+
+<img src = img/praktikum4.png>
+
+Jawab : Kode yang telah diperbaiki berhasil menjalankan loop dari angka 10 hingga 26, perubahannya adalah menggunakan huruf kecil untuk if dan else if, mengganti operator logika || menjadi && pada kondisi kedua, dan memastikan konsistensi penggunaan variabel index. Penggunaan perintah break untuk menghentikan loop saat index mencapai 21. Perintah continue digunakan untuk melewatkan iterasi ketika index berada di antara 2 dan 6, sehingga angka tersebut tidak dicetak.
