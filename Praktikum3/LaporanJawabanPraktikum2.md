@@ -84,3 +84,33 @@ Jawab : Kode yang telah diperbaiki berhasil mengatasi masalah dengan memastikan 
 <img src = img/praktikum4.png>
 
 Jawab : Kode yang telah diperbaiki berhasil menjalankan loop dari angka 10 hingga 26, perubahannya adalah menggunakan huruf kecil untuk if dan else if, mengganti operator logika || menjadi && pada kondisi kedua, dan memastikan konsistensi penggunaan variabel index. Penggunaan perintah break untuk menghentikan loop saat index mencapai 21. Perintah continue digunakan untuk melewatkan iterasi ketika index berada di antara 2 dan 6, sehingga angka tersebut tidak dicetak.
+
+## *Tugas Praktikum*
+
+#### Buatlah sebuah program yang dapat menampilkan bilangan prima dari angka 0 sampai 201 menggunakan Dart. Ketika bilangan prima ditemukan, maka tampilkan nama lengkap dan NIM Anda.
+
+```dart
+void main() {
+  String namaLengkap = "Yogianna Nur Febrianti"; 
+  String nim = "2241720261";
+
+  print("Bilangan Prima dari 0 hingga 201:");
+  
+  for (int number = 2; number <= 201; number++) {
+    if (isPrime(number)) {
+      print("$number - $namaLengkap, NIM: $nim");
+    }
+  }
+}
+
+bool isPrime(int number) {
+  for (int i = 2; i <= number ~/ 2; i++) {
+    if (number % i == 0) {
+      return false;
+    }
+  }
+  return true;
+}
+```
+
+<img src = img/tugas.png>
