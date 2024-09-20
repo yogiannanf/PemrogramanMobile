@@ -45,3 +45,23 @@ Apa yang terjadi ? Jika terjadi error, silakan perbaiki namun tetap menggunakan 
 Jawab : Elemen nama "Yogianna Nur Febrianti" ditambahkan ke set names1 menggunakan metode .add(), dan Nama "Yogianna Nur Febrianti" NIM "2241720261" ditambahkan ke set names2 menggunakan metode .addAll(). Hasil eksekusi akan menampilkan {Yogianna Nur Febrianti} untuk names1 dan {2241720261} untuk names2.
 
     catatan : .add() hanya bisa menambahkan satu elemen, sementara .addAll() bisa menambahkan banyak elemen sekaligus.
+
+### *Praktikum 3: Eksperimen Tipe Data Maps*
+
+#### Eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan!
+
+<img src = img/cobaprak3.png>
+
+Jawab : Dua map yang masing-masing berisi key dan value. Map pertama (gifts) memiliki key berupa string dan value berupa string atau integer, dan map kedua (nobleGases) memiliki key berupa integer dan value berupa string atau integer.
+
+#### Tambahkan kode program berikut, Apa yang terjadi ?
+
+<img src = img/cobaprak3a.png>
+
+Jawab :  kode berjalan tanpa error, tetapi variabel mhs1 dan mhs2 tidak digunakan atau diisi dengan elemen apa pun, sehingga tidak memiliki pengaruh pada program. 
+
+#### Tambahkan elemen nama : Yogianna Nur Febrianti dan NIM : 2241720261 Anda pada tiap variabel di atas (gifts, nobleGases, mhs1, dan mhs2). 
+
+<img src = img/cobaprak3b.png>
+
+Jawab : Map gifts dan nobleGases diperbarui dengan nilai baru: gifts sekarang menyimpan hadiah dengan kunci string, sedangkan nobleGases menyimpan gas mulia dengan kunci integer. Map mhs1 dan mhs2, dibuat untuk menyimpan informasi mahasiswa, dengan mhs1 menggunakan kunci string dan mhs2 menggunakan kunci integer.
