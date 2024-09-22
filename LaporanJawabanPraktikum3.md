@@ -120,3 +120,17 @@ promoActive bernilai true, maka list nav akan mencakup elemen 'Outlet' di akhir 
 <img src = img/prak4false.png>
 
 promoActive bernilai false, elemen 'Outlet' tidak akan ditambahkan, sehingga list nav hanya berisi ['Home', 'Furniture', 'Plants'].
+
+####  Apa yang terjadi ? Jika terjadi error, silakan perbaiki. Tunjukkan hasilnya jika variabel login mempunyai kondisi lain.
+
+<img src = img/prak4bgn5.png>
+
+Jawab : terjadi error karena login tidak dideklarasikan sebelumnya dan penggunaan case juga tidak sesuai dengan aturan sintaks dalam Dart.
+
+<img src = img/prak4bgn5a.png>
+
+Variabel login dideklarasikan sebagai String dan diberi nilai 'Manager', if (login == 'Manager') untuk mengecek apakah nilai login adalah 'Manager'. Jika true, elemen 'Inventory' akan ditambahkan ke dalam list nav2.
+
+<img src = img/prak4bgn5b.png>
+
+List nav2 menambahkan 'Dashboard' jika login == 'Admin', dan 'Inventory' hanya akan ditambahkan jika login == 'Manager'.

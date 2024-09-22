@@ -22,4 +22,14 @@ void main() {
 
   var nav = ['Home', 'Furniture', 'Plants', if (promoActive) 'Outlet'];
     print(nav);
+
+  // Deklarasi login
+  String login = 'Admin'; // selain 'Manager'
+
+  var nav2 = ['Home', 'Furniture', 'Plants', 
+  if (login == 'Manager') 'Inventory', 
+  if (login == 'Admin') 'Dashboard', // Kondisi untuk Admin
+  ];
+    print(nav2);
+
 }
