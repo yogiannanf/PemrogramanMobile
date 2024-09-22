@@ -337,4 +337,40 @@ void main() {
 
 5. Jelaskan perbedaan Lexical scope dan Lexical closures! Berikan contohnya!
 
+Jawab : 
+
+- Lexical Scope : Menentukan bagaimana variabel dapat diakses dalam sebuah fungsi berdasarkan di mana variabel dideklarasikan dalam kode.
+
+Contohnya :
+
+``` dart
+ void main() {
+  int a = 10; // Variabel 'a' dideklarasikan dalam ruang lingkup utama
+
+  void printA() {
+    print(a); // 'a' dapat diakses karena berada dalam ruang lingkup yang sama
+  }
+
+  printA(); // Output: 10
+}
+```
+
+- Lexical Closure : Fungsi yang mempertahankan akses ke variabel dari lingkup luar meskipun lingkup tersebut telah selesai dieksekusi. Closure menangkap nilai dari variabel di sekitarnya pada saat fungsi didefinisikan. 
+
+contohnya : 
+
+``` dart
+Function makeMultiplier(int multiplier) {
+  return (int value) => value * multiplier;
+}
+
+void main() {
+  var timesTwo = makeMultiplier(2); // Fungsi ini "menutup" nilai multiplier = 2
+  print(timesTwo(5)); // Output: 10
+
+  var timesThree = makeMultiplier(3); // Fungsi ini "menutup" nilai multiplier = 3
+  print(timesThree(5)); // Output: 15
+}
+```
+
 6. Jelaskan dengan contoh cara membuat return multiple value di Functions!
