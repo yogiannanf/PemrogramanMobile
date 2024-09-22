@@ -256,6 +256,11 @@ void main() {
 
 3. Jelaskan maksud Functions sebagai first-class objects beserta contoh sintaknya!
 
+Jawab : - Dideklarasikan dalam variabel.
+        - Diberikan sebagai argumen kepada fungsi lain.
+        - Dikembalikan dari fungsi lain.
+        - Disimpan dalam struktur data seperti list atau map.
+
 4. Apa itu Anonymous Functions? Jelaskan dan berikan contohnya!
 Jelaskan perbedaan Lexical scope dan Lexical closures! Berikan contohnya!
 
