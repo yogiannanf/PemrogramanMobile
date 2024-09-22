@@ -156,3 +156,14 @@ Jawab : terjadi error, karena kurangnya (;) di akhir pernyataan print(record).
 
 terdapat empat elemen: dua elemen positional (yaitu "first" dan 'last') serta dua elemen labeled (a: 2 dan b: true). Setelah mendefinisikan record, kode ini mencetak isi dari record tersebut ke debug console.
 
+#### Tambahkan kode program berikut di luar scope void main(), Apa yang terjadi ? Jika terjadi error, silakan perbaiki. Gunakan fungsi tukar() di dalam main() sehingga tampak jelas proses pertukaran value field di dalam Records.
+
+<img src = img/prak5a.png>
+
+ Jawab : Tidak menghasilkan error karena tidak memanggil fungsi tukar(), hasilnya mencetakan record yang telah didefinisikan.
+
+ - Menambahkan fungsi tukar() di dalam main()
+
+ <img src = img/prak5b.png>
+
+  Fungsi tukar() untuk menukar nilai dalam record bertipe (int, int). Di dalam main(), record (1, 2) dicetak sebelum dan setelah pemanggilan tukar(), menunjukkan bahwa nilai telah berhasil ditukar.
