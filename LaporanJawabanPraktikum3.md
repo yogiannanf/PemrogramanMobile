@@ -199,11 +199,10 @@ Jawab : Mendefinisikan variabel mahasiswa2 sebagai record dengan elemen position
   ## *Tugas Praktikum*
 
 1. Jelaskan yang dimaksud Functions dalam bahasa Dart!
-Jelaskan jenis-jenis parameter di Functions beserta contoh sintaksnya!
 
 Jawab : Functions (fungsi) dalam Dart adalah blok kode yang dapat dipanggil untuk mengorganisir kode, memisahkan logika program, dan meningkatkan reusabilitas. 
 
--  jenis-jenis parameter di Functions beserta contoh sintaksnya
+2. Jelaskan jenis-jenis parameter di Functions beserta contoh sintaksnya!
 
     a. Parameter Posisi
 
@@ -255,9 +254,9 @@ void main() {
 }
 ```
 
-2. Jelaskan maksud Functions sebagai first-class objects beserta contoh sintaknya!
+3. Jelaskan maksud Functions sebagai first-class objects beserta contoh sintaknya!
 
-3. Apa itu Anonymous Functions? Jelaskan dan berikan contohnya!
+4. Apa itu Anonymous Functions? Jelaskan dan berikan contohnya!
 Jelaskan perbedaan Lexical scope dan Lexical closures! Berikan contohnya!
 
-4. Jelaskan dengan contoh cara membuat return multiple value di Functions!
+5. Jelaskan dengan contoh cara membuat return multiple value di Functions!
