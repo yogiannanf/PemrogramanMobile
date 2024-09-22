@@ -102,3 +102,21 @@ Jawab : list berisi [1, 2, 3], yang dicetak sebagai hasil pertama.list2 berisi [
 <img src = img/cobaprak4b.png>
 
 Jawab : list listNIM berisi NIM Anda ('2241720261'), dan list4 menjadi [0, 2241720261]. Panjang list4 juga dicetak sebagai 2. dan listNim ada di baris ke-6 jika di run. list4 menjadi [0, 2241720261] karena menggunakan spread operator untuk menambahkan elemen dari listNIM.
+
+#### Tambahkan kode program berikut, lalu coba eksekusi (Run) kode Anda.
+
+<img src = img/prak4langkah4error.png>
+
+Jawab : kodenya terjadi error karena variabel promoActive belum dideklarasikan.
+
+####  variabel promoActive ketika true
+
+<img src = img/prak4true.png>
+
+promoActive bernilai true, maka list nav akan mencakup elemen 'Outlet' di akhir list, sehingga hasilnya akan menjadi ['Home', 'Furniture', 'Plants', 'Outlet'].
+
+####  variabel promoActive ketika false
+
+<img src = img/prak4false.png>
+
+promoActive bernilai false, elemen 'Outlet' tidak akan ditambahkan, sehingga list nav hanya berisi ['Home', 'Furniture', 'Plants'].

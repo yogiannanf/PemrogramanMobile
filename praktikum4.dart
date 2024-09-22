@@ -15,4 +15,11 @@ void main() {
   var list4 = [0, ...listNIM]; // Menggunakan Spread Operator
   print(list4);
   print(list4.length);
+
+  // Deklarasi promoActive
+  // bool promoActive = true; 
+  bool promoActive = false; 
+
+  var nav = ['Home', 'Furniture', 'Plants', if (promoActive) 'Outlet'];
+    print(nav);
 }
