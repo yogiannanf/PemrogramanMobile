@@ -256,10 +256,64 @@ void main() {
 
 3. Jelaskan maksud Functions sebagai first-class objects beserta contoh sintaknya!
 
-Jawab : - Dideklarasikan dalam variabel.
-        - Diberikan sebagai argumen kepada fungsi lain.
-        - Dikembalikan dari fungsi lain.
-        - Disimpan dalam struktur data seperti list atau map.
+Jawab : First-class objects memungkinkan fleksibilitas yang besar dalam pemrograman, menciptakan kode yang lebih modular, dinamis, dan mudah dikelola. Sebagai objek yang dapat digunakan seperti halnya objek lainnya. Ini berarti bahwa fungsi dapat:
+
+- Dideklarasikan dalam variabel.
+```dart
+void salam() {
+  print('Selamat datang!');
+}
+
+void main() {
+  var f = salam; // Menyimpan fungsi dalam variabel
+  f(); // Memanggil fungsi melalui variabel
+}
+```
+
+- Diberikan sebagai argumen kepada fungsi lain.
+```dart
+void executeFunction(void Function() func) {
+  func(); // Memanggil fungsi yang diterima sebagai argumen
+}
+
+void main() {
+  executeFunction(() {
+    print('Fungsi dieksekusi!');
+  });
+}
+```
+
+- Dikembalikan dari fungsi lain.
+```dart
+void Function() createCounter() {
+  int count = 0; // Variabel di dalam closure
+  return () {
+    count++;
+    print('Count: $count');
+  };
+}
+
+void main() {
+  var counter = createCounter();
+  counter(); // Output: Count: 1
+  counter(); // Output: Count: 2
+}
+```
+
+- Disimpan dalam struktur data seperti list atau map.
+```dart
+void main() {
+  List<void Function()> functions = [
+    () => print('Fungsi 1'),
+    () => print('Fungsi 2'),
+    () => print('Fungsi 3'),
+  ];
+
+  for (var func in functions) {
+    func(); // Memanggil setiap fungsi dalam list
+  }
+}
+```
 
 4. Apa itu Anonymous Functions? Jelaskan dan berikan contohnya!
 Jelaskan perbedaan Lexical scope dan Lexical closures! Berikan contohnya!
