@@ -167,3 +167,21 @@ terdapat empat elemen: dua elemen positional (yaitu "first" dan 'last') serta du
  <img src = img/prak5b.png>
 
   Fungsi tukar() untuk menukar nilai dalam record bertipe (int, int). Di dalam main(), record (1, 2) dicetak sebelum dan setelah pemanggilan tukar(), menunjukkan bahwa nilai telah berhasil ditukar.
+
+  #### Tambahkan kode program berikut di dalam scope void main()
+
+  ```dart 
+  // Record type annotation in a variable declaration:
+(String, int) mahasiswa;
+print(mahasiswa);
+```
+
+Apa yang terjadi ? Jika terjadi error, silakan perbaiki
+
+Jawab : terjadi error dikarenakan penggunaan variabel yang belum diinisialisasi.
+
+- Inisialisasi field nama dan NIM Anda pada variabel record mahasiswa di atas. 
+
+ <img src = img/prak5c.png>
+
+ Kode ini mendefinisikan variabel mahasiswa dengan tipe record (String, int) yang diinisialisasi dengan nama dan NIM.
