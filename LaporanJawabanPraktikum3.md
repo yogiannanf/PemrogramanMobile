@@ -195,3 +195,69 @@ Jawab : Mendefinisikan variabel mahasiswa2 sebagai record dengan elemen position
 - Gantilah salah satu isi record dengan nama dan NIM Anda, lalu dokumentasikan hasilnya dan buat laporannya!
 
   <img src = img/prak5e.png>
+
+  ## *Tugas Praktikum*
+
+1. Jelaskan yang dimaksud Functions dalam bahasa Dart!
+Jelaskan jenis-jenis parameter di Functions beserta contoh sintaksnya!
+
+Jawab : Functions (fungsi) dalam Dart adalah blok kode yang dapat dipanggil untuk mengorganisir kode, memisahkan logika program, dan meningkatkan reusabilitas. 
+
+-  jenis-jenis parameter di Functions beserta contoh sintaksnya
+
+    a. Parameter Posisi
+
+``` dart
+void printInfo(String nama, int umur) {
+  print('Nama: $nama, Umur: $umur');
+}
+
+void main() {
+  printInfo('Yogianna', 20); // Memanggil fungsi dengan parameter posisi
+}
+```
+
+    b. Parameter Opsional
+``` dart
+void cetakNama(String nama, [int? umur]) {
+  print('Nama: $nama, Umur: ${umur ?? 'Tidak Diketahui'}');
+}
+
+void main() {
+  cetakNama('Yogianna'); // Output: Nama: Yogianna, Umur: Tidak Diketahui
+  cetakNama('Nur', 20); // Output: Nama: Nur, Umur: 20
+}
+```
+
+    c. Parameter Named (Bertanda Nama)
+``` dart
+void buatProfil({String? nama, int umur = 20}) {
+  print('Nama: ${nama ?? 'Tidak Diketahui'}, Umur: $umur');
+}
+
+void main() {
+  buatProfil(nama: 'Yogianna'); // Output: Nama: Yogianna, Umur: 20
+  buatProfil(umur: 20); // Output: Nama: Tidak Diketahui, Umur: 20
+}
+```
+
+    d. Parameter Named Wajib
+```dart
+void tampilkanData({required String nama, required int umur}) {
+  print('Nama: $nama, Umur: $umur');
+}
+
+void main() {
+  tampilkanData(nama: 'Yogianna', umur: 20); // Output: Nama: Yogianna, Umur: 20
+  
+  // Uncomment baris di bawah ini untuk melihat error
+  // tampilkanData(nama: 'Yogianna'); // Ini akan menghasilkan error karena umur tidak diberikan
+}
+```
+
+2. Jelaskan maksud Functions sebagai first-class objects beserta contoh sintaknya!
+
+3. Apa itu Anonymous Functions? Jelaskan dan berikan contohnya!
+Jelaskan perbedaan Lexical scope dan Lexical closures! Berikan contohnya!
+
+4. Jelaskan dengan contoh cara membuat return multiple value di Functions!
