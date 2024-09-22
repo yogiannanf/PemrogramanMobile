@@ -185,3 +185,13 @@ Jawab : terjadi error dikarenakan penggunaan variabel yang belum diinisialisasi.
  <img src = img/prak5c.png>
 
  Kode ini mendefinisikan variabel mahasiswa dengan tipe record (String, int) yang diinisialisasi dengan nama dan NIM.
+
+ #### Tambahkan kode program berikut di dalam scope void main()
+
+  <img src = img/prak5d.png>
+
+Jawab : Mendefinisikan variabel mahasiswa2 sebagai record dengan elemen positional dan labeled. Ketika dicetak, output menunjukkan nilai dari elemen-elemen tersebut: first, 2, true, dan last.
+
+- Gantilah salah satu isi record dengan nama dan NIM Anda, lalu dokumentasikan hasilnya dan buat laporannya!
+
+  <img src = img/prak5e.png>
