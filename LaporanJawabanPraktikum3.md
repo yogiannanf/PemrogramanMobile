@@ -134,3 +134,9 @@ Variabel login dideklarasikan sebagai String dan diberi nilai 'Manager', if (log
 <img src = img/prak4bgn5b.png>
 
 List nav2 menambahkan 'Dashboard' jika login == 'Admin', dan 'Inventory' hanya akan ditambahkan jika login == 'Manager'.
+
+####  Apa yang terjadi ? Jika terjadi error, silakan perbaiki. Jelaskan manfaat Collection For dan dokumentasikan hasilnya.
+
+<img src = img/prak4bgn6.png>
+
+Jawab : kode tidak terjadi error, manfaat Collection For adalah membuat kode lebih ringkas dan mudah dibaca dibandingkan dengan loop biasa, memungkinkan transformasi langsung dari elemen-elemen dalam list, set, atau iterable ke dalam list baru dengan efisien.
