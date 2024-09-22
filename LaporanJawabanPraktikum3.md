@@ -140,3 +140,19 @@ List nav2 menambahkan 'Dashboard' jika login == 'Admin', dan 'Inventory' hanya a
 <img src = img/prak4bgn6.png>
 
 Jawab : kode tidak terjadi error, manfaat Collection For adalah membuat kode lebih ringkas dan mudah dibaca dibandingkan dengan loop biasa, memungkinkan transformasi langsung dari elemen-elemen dalam list, set, atau iterable ke dalam list baru dengan efisien.
+
+### *Praktikum 5: Eksperimen Tipe Data Records*
+
+#### Eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan! Lalu perbaiki jika terjadi error.
+
+``` dart
+var record = ('first', a: 2, b: true, 'last');
+print(record)
+```
+
+Jawab : terjadi error, karena kurangnya (;) di akhir pernyataan print(record).
+
+<img src = img/prak5.png>
+
+terdapat empat elemen: dua elemen positional (yaitu "first" dan 'last') serta dua elemen labeled (a: 2 dan b: true). Setelah mendefinisikan record, kode ini mencetak isi dari record tersebut ke debug console.
+
