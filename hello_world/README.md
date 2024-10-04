@@ -54,3 +54,23 @@ Run main.dart pada windows dan tunggu prosesnya selesai
 <img src = img/prak2langkah3.png>
 
 Pada Handphone akan tampil program hello_world
+
+## Praktikum 3: Membuat Repository GitHub dan Laporan Praktikum
+
+### *- Langkah 11 :*
+
+<img src = img/prak3langkah1.png>
+
+Menampilkan aplikasi flutter menggunakan browser Chrome
+
+### *- Langkah 12 :*
+
+Teks yang ditampilkan dalam aplikasi berupa nama lengkap Anda : *Yogianna Nur Febrianti*
+
+### hello_world
+
+A new Flutter project.
+
+![Screenshot hello_world](img/01.png)
+
+![Screenshot hello_world](img/prak3hasil.png)
