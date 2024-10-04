@@ -34,3 +34,23 @@ Project flutter hello_world
 <img src = img/prak1langkah5.png>
 
 Flutter Project is ready
+
+## Praktikum 2: Menghubungkan Perangkat Android atau Emulator
+
+### *- Langkah 1 :*
+
+<img src = img/prak2langkah1.jpg>
+
+Sambungkan kabel USB pada perangkat ke laptop. Lalu, buka Developer options, scroll ke bawah ke bagian Debugging, lalu aktifkan USB debugging.
+
+### *- Langkah 2 :*
+
+<img src = img/prak2langkah2.jpg>
+
+Run main.dart pada windows dan tunggu prosesnya selesai
+
+### *- Langkah 3 :*
+
+<img src = img/prak2langkah3.png>
+
+Pada Handphone akan tampil program hello_world
