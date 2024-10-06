@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hello_world/basic_widgets/fab_widget.dart';
 import 'package:hello_world/basic_widgets/image_widget.dart';
 import 'package:hello_world/basic_widgets/loading_cupertino.dart';
 import 'package:hello_world/basic_widgets/text_widget.dart';
@@ -71,6 +72,10 @@ class _MyHomePageState extends State<MyHomePage> {
     });
   }
 
+  void _onFabPressed() {
+    print('FabCupWidget pressed!'); // Fungsi yang dipanggil saat FabCupWidget ditekan
+  }
+
   @override
   Widget build(BuildContext context) {
     // This method is rerun every time setState is called, for instance as done
@@ -109,10 +114,10 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             // const MyTextWidget(), # import file text_widget.dart ke main.dart
-            const LoadingCupWidget(),
+            FabCupWidget(onPressedAction: _onFabPressed),
             Text(
               '$_counter',
-              // style: Theme.of(context).textTheme.headlineMedium,
+              style: Theme.of(context).textTheme.headlineMedium,
             ),
           ],
         ),
