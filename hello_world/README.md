@@ -131,3 +131,11 @@ flutter:
 Import file image_widget.dart ke main.dart
 
 ![Screenshot hello_world](img/03.png)
+
+## Praktikum 5: Menerapkan Widget Material Design dan iOS Cupertino
+
+### *- Langkah 1: Cupertino Button dan Loading Bar*
+
+File di basic_widgets > loading_cupertino.dart. Import stateless widget dari material dan cupertino. 
+
+![Screenshot hello_world](img/prak5langkah1.png)
