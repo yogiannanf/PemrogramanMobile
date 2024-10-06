@@ -147,3 +147,11 @@ Button widget terdapat beberapa macam pada flutter yaitu ButtonBar, DropdownButt
 File di basic_widgets > fab_widget.dart. Import stateless widget dari material. Lalu isi kode di dalam method Widget build
 
 ![Screenshot hello_world](img/prak5langkah2.png)
+
+### *- Langkah 3: Scaffold Widget*
+
+Scaffold widget digunakan untuk mengatur tata letak sesuai dengan material design.
+
+Kode main.dart 
+
+![Screenshot hello_world](img/prak5langkah3.png)
