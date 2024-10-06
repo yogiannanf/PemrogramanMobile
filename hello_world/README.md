@@ -74,3 +74,60 @@ A new Flutter project.
 ![Screenshot hello_world](img/01.png)
 
 ![Screenshot hello_world](img/prak3hasil.png)
+
+## Praktikum 4: Menerapkan Widget Dasar
+
+### *- Langkah 1: Text Widget*
+
+Buat folder basic_widgets di dalam folder lib, kemudian file di dalam basic_widgets dengan nama text_widget.dart, text didalam kode menggunakan nama : *Yogianna Nur Febrianti*
+
+```dart
+    import 'package:flutter/material.dart';
+
+    class MyTextWidget extends StatelessWidget {
+    const MyTextWidget({Key? key}) : super(key: key);
+
+    @override
+    Widget build(BuildContext context) {
+        return const Text(
+        "Nama saya Yogianna Nur Febrianti, sedang belajar Pemrograman Mobile",
+        style: TextStyle(color: Colors.red, fontSize: 14),
+        textAlign: TextAlign.center);
+    }
+    }
+```
+
+Import file text_widget.dart ke main.dart
+
+![Screenshot hello_world](img/02.png)
+
+### *- Langkah 2: Image Widget*
+
+Buat sebuah file image_widget.dart di dalam folder basic_widgets
+
+```dart
+import 'package:flutter/material.dart';
+
+class MyImageWidget extends StatelessWidget {
+  const MyImageWidget({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return const Image(
+      image: AssetImage("assets/logo_polinema.png")
+    );
+  }
+}
+```
+
+Penyesuaian asset pada file pubspec.yaml dan tambahkan file logo Anda di folder assets project hello_world.
+
+```yaml
+flutter:
+  assets:
+    - assets/logo_polinema.png
+```
+
+Import file image_widget.dart ke main.dart
+
+![Screenshot hello_world](img/03.png)
