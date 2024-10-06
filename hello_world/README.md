@@ -155,3 +155,11 @@ Scaffold widget digunakan untuk mengatur tata letak sesuai dengan material desig
 Kode main.dart 
 
 ![Screenshot hello_world](img/prak5langkah3.png)
+
+### *- Langkah 4: Dialog Widget*
+
+Dialog widget pada flutter memiliki dua jenis dialog yaitu AlertDialog dan SimpleDialog.
+
+Kode main.dart
+
+![Screenshot hello_world](img/prak5langkah4.png)
