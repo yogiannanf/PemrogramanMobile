@@ -20,16 +20,28 @@ class MyApp extends StatelessWidget {
 class MyLayout extends StatelessWidget {
   const MyLayout({Key? key}) : super(key: key);
 
-  @override
+   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(8.0),
-      child: ElevatedButton(
-        child: const Text('Flutter Demo Home Page'),
-        onPressed: () {
-          showAlertDialog(context);
-        },
-      ),
+    return Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        const Padding(
+          padding: EdgeInsets.all(8.0),
+          child: TextField(
+            obscureText: false,
+            decoration: InputDecoration(
+              border: OutlineInputBorder(),
+              labelText: 'Nama',
+            ),
+          ),
+        ),
+        ElevatedButton(
+          onPressed: () {
+            showAlertDialog(context);
+          },
+          child: const Text("Tampilkan Dialog"),
+        ),
+      ],
     );
   }
 }

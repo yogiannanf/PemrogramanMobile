@@ -163,3 +163,11 @@ Dialog widget pada flutter memiliki dua jenis dialog yaitu AlertDialog dan Simpl
 Kode main.dart
 
 ![Screenshot hello_world](img/prak5langkah4.png)
+
+### *- Langkah 5: Input dan Selection Widget*
+
+Flutter menyediakan widget yang dapat menerima input dari pengguna aplikasi yaitu antara lain Checkbox, Date and Time Pickers, Radio Button, Slider, Switch, TextField.
+
+File di basic_widgets > input_widget.dart. Import file input_widget.dart ke main.dart
+
+![Screenshot hello_world](img/prak5langkah5.png)
