@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'basic_widgets/date_widget.dart'; // Import file untuk widget tanggal
 
 void main() {
   runApp(const MyApp());
@@ -7,68 +8,25 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
-  @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: MyLayout(),
-      ),
-    );
-  }
-}
-
-class MyLayout extends StatelessWidget {
-  const MyLayout({Key? key}) : super(key: key);
-
    @override
   Widget build(BuildContext context) {
-    return Column(
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: [
-        const Padding(
-          padding: EdgeInsets.all(8.0),
-          child: TextField(
-            obscureText: false,
-            decoration: InputDecoration(
-              border: OutlineInputBorder(),
-              labelText: 'Nama',
-            ),
-          ),
-        ),
-        ElevatedButton(
-          onPressed: () {
-            showAlertDialog(context);
-          },
-          child: const Text("Tampilkan Dialog"),
-        ),
-      ],
+    return const MaterialApp(
+      title: 'Contoh Date Picker',
+      home: MyHomePage(),
     );
   }
 }
 
-showAlertDialog(BuildContext context) {
-  // set up the button
-  Widget okButton = TextButton(
-    child: const Text("OK"),
-    onPressed: () {
-      Navigator.pop(context);
-    },
-  );
+class MyHomePage extends StatelessWidget {
+  const MyHomePage({Key? key}) : super(key: key);
 
-  // set up the AlertDialog
-  AlertDialog alert = AlertDialog(
-    title: const Text("My title"),
-    content: const Text("This is my message."),
-    actions: [
-      okButton,
-    ],
-  );
-
-  // show the dialog
-  showDialog(
-    context: context,
-    builder: (BuildContext context) {
-      return alert;
-    },
-  );
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Contoh Date Picker'),
+      ),
+      body: const DatetimeWidget(), // Panggil widget yang sudah dibuat
+    );
+  }
 }

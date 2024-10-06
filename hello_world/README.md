@@ -171,3 +171,13 @@ Flutter menyediakan widget yang dapat menerima input dari pengguna aplikasi yait
 File di basic_widgets > input_widget.dart. Import file input_widget.dart ke main.dart
 
 ![Screenshot hello_world](img/prak5langkah5.png)
+
+### *- Langkah 6: Date and Time Pickers*
+
+Date and Time Pickers termasuk pada kategori input dan selection widget, berikut adalah contoh penggunaan Date and Time Pickers.
+
+File di basic_widgets > date_widget.dart. Import file date_widget.dart ke main.dart
+
+![Screenshot hello_world](img/prak5langkah6a.png)
+
+![Screenshot hello_world](img/prak5langkah6b.png)
