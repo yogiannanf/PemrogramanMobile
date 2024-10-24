@@ -95,3 +95,31 @@ Menampilkan sebuah ikon bintang merah di sebelah kiri dan angka "41" di sebelah 
 #### /*Hasilnya*/
 
 <img src = img/hasilprak1.png>
+
+## Praktikum 2: Implementasi button row
+
+### *- Langkah 1: Buat method Column _buildButtonColumn*
+
+Buatlah metode pembantu pribadi bernama buildButtonColumn(), yang mempunyai parameter warna, Icon dan Text, sehingga dapat mengembalikan kolom dengan widgetnya sesuai dengan warna tertentu.
+
+Bagian tombol berisi 3 kolom yang menggunakan tata letak yang sama—sebuah ikon di atas baris teks. Kolom pada baris ini diberi jarak yang sama, dan teks serta ikon diberi warna primer.
+
+<img src = img/prak2soal1.png>
+
+### *- Langkah 2: Buat widget buttonSection*
+
+Buat Fungsi untuk menambahkan ikon langsung ke kolom. Teks berada di dalam Container dengan margin hanya di bagian atas, yang memisahkan teks dari ikon.
+
+lib/main.dart (buttonSection)
+
+<img src = img/prak2soal2.png>
+
+### *- Langkah 3: Tambah button section ke body*
+
+Tambahkan variabel buttonSection ke dalam body
+
+<img src = img/prak2soal3.png>
+
+#### *Hasilnya*
+
+<img src = img/hasilprak2.png>
