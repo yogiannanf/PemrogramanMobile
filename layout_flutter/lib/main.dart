@@ -64,6 +64,19 @@ class MyApp extends StatelessWidget {
         ],
       );
 
+      //Praktikum 3 langkah 1
+      Widget textSection = Container(
+        padding: const EdgeInsets.all(32),
+        child: const Text(
+          'Selecta Daya Tarik\n'
+          'Selecta adalah tempat wisata yang terkenal dengan keindahan alamnya, terletak di ketinggian sekitar 1.200 meter di atas permukaan laut. '
+          'Taman rekreasi ini menawarkan pemandangan yang menakjubkan dengan berbagai bunga warna-warni yang bermekaran, serta udara yang sejuk dan segar. '
+          'Di dalam Selecta, pengunjung dapat menikmati berbagai fasilitas, termasuk kolam renang, taman bermain, dan wahana permainan yang menyenangkan. '
+          'Keindahan panorama pegunungan dan suasana yang tenang menjadikan Selecta sebagai tempat yang ideal untuk bersantai dan melepas penat. (Yogianna Nur Febrianti 2241720261)',
+          softWrap: true,
+        ),
+      );
+
       return MaterialApp(
       title: 'Flutter Demo: Yogianna Nur Febrianti dan 2241720261',
       home: Scaffold(
@@ -74,6 +87,7 @@ class MyApp extends StatelessWidget {
           children: [
             titleSection, // Menampilkan section yang telah dibuat
             buttonSection,// Praktikum 2 Langkah 3
+             textSection,//Praktikum 3 Langkah 2
           ],
         ),
       ),
