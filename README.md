@@ -124,7 +124,7 @@ Tambahkan variabel buttonSection ke dalam body
 
 <img src = img/hasilprak2.png>
 
-## - Praktikum 3: Implementasi text section
+## Praktikum 3: Implementasi text section
 
 ### *- Langkah 1: Buat widget textSection*
 
@@ -141,3 +141,29 @@ Tambahkan widget variabel textSection ke dalam body seperti berikut:
 #### *Hasilnya*
 
 <img src = img/hasilprak3.png>
+
+## Praktikum 4: Implementasi image section
+
+### *- Langkah 1: Siapkan aset gambar*
+
+Buatlah folder images di root project layout_flutter. Masukkan file gambar tersebut ke folder images, lalu set nama file tersebut ke file pubspec.yaml seperti berikut:
+
+<img src = img/prak4soal1.png>
+
+### *- Langkah 2: Tambahkan gambar ke body*
+
+Tambahkan aset gambar ke dalam body
+
+<img src = img/prak4soal2.png>
+
+BoxFit.cover memberi tahu kerangka kerja bahwa gambar harus sekecil mungkin tetapi menutupi seluruh kotak rendernya.
+
+### *- Langkah 3: Terakhir, ubah menjadi ListView*
+
+Atur semua elemen dalam ListView, bukan Column, karena ListView mendukung scroll yang dinamis saat aplikasi dijalankan pada perangkat yang resolusinya lebih kecil.
+
+<img src = img/prak4soal3.png>
+
+#### *Hasilnya*
+
+<img src = img/hasilprak4.png>

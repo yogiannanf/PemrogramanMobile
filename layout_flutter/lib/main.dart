@@ -83,8 +83,17 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: const Text('My App'),
         ),
-         body: Column(
+         // body: Column(
+         // Praktikum 4 langkah 3
+         body: ListView(
           children: [
+            // Praktikum 4 langkah 2
+            Image.asset(
+              'img/selecta.jpeg',
+              width: 600,
+              height: 240,
+              fit: BoxFit.cover,
+            ),
             titleSection, // Menampilkan section yang telah dibuat
             buttonSection,// Praktikum 2 Langkah 3
              textSection,//Praktikum 3 Langkah 2
