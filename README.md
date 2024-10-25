@@ -7,6 +7,10 @@
 ## NIM   : 2241720261
 ---
 
+## **Tugas Praktikum 1**
+
+Selesaikan Praktikum 1 sampai 4, lalu dokumentasikan dan push ke repository Anda berupa screenshot setiap hasil pekerjaan beserta penjelasannya di file README.md!
+
 ## Praktikum 1: Membangun Layout di Flutter
 
 ### *- Langkah 1: Buat Project Baru*
