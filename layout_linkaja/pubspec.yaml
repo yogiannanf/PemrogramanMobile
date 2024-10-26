@@ -58,6 +58,21 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
+  assets:
+  - assets/background.jpg
+  - assets/linkaja_logo.png
+  - assets/transfer.png
+  - assets/seeall.png
+  - assets/topup.png
+  - assets/ticket.png
+  - assets/aset_complete_transaction.png
+  - assets/fotoprofil.JPG
+  - assets/linkaja1.jpg
+  - assets/linkaja2.jpg
+  - assets/linkaja3.jpg
+  - assets/linkaja4.jpg
+  - assets/linkaja5.jpg
+
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
